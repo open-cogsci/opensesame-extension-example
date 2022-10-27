@@ -25,9 +25,9 @@ setup(
 		'Environment :: Win32 (MS Windows)',
 		'Environment :: X11 Applications',
 		'License :: OSI Approved :: Apache Software License',
-		'Programming Language :: Python :: 2',
 		'Programming Language :: Python :: 3',
 	],
+	packages=[],
 	# The important bit that specifies how the extension files should be installed,
 	# so that they are found by OpenSesame. This is a bit different from normal
 	# Python modules, because an OpenSesame extension is not a (normal) Python
